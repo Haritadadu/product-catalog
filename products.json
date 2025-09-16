@@ -1,17 +1,27 @@
 [
   {
-    "name": "Red Sneakers",
-    "price": "$49.99",
-    "image": "https://via.placeholder.com/250x250?text=Red+Sneakers"
+    "name": "Classic Kundan Necklace",
+    "price": "₹1,499",
+    "image": "https://via.placeholder.com/300x300.png?text=Kundan+Necklace"
   },
   {
-    "name": "Blue Hoodie",
-    "price": "$39.99",
-    "image": "https://via.placeholder.com/250x250?text=Blue+Hoodie"
+    "name": "Gold-Plated Jhumkas",
+    "price": "₹799",
+    "image": "https://via.placeholder.com/300x300.png?text=Gold+Jhumkas"
   },
   {
-    "name": "Green Backpack",
-    "price": "$59.99",
-    "image": "https://via.placeholder.com/250x250?text=Green+Backpack"
+    "name": "Pearl Statement Ring",
+    "price": "₹399",
+    "image": "https://via.placeholder.com/300x300.png?text=Pearl+Ring"
+  },
+  {
+    "name": "Elegant Hoop Earrings",
+    "price": "₹699",
+    "image": "https://via.placeholder.com/300x300.png?text=Hoop+Earrings"
+  },
+  {
+    "name": "Silver Tone Bracelet",
+    "price": "₹499",
+    "image": "https://via.placeholder.com/300x300.png?text=Silver+Bracelet"
   }
 ]
