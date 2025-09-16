@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Red Sneakers",
+    "price": "$49.99",
+    "image": "https://via.placeholder.com/250x250?text=Red+Sneakers"
+  },
+  {
+    "name": "Blue Hoodie",
+    "price": "$39.99",
+    "image": "https://via.placeholder.com/250x250?text=Blue+Hoodie"
+  },
+  {
+    "name": "Green Backpack",
+    "price": "$59.99",
+    "image": "https://via.placeholder.com/250x250?text=Green+Backpack"
+  }
+]
