@@ -3,31 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gehnoor Creations | Catalogue</title>
+  <title>Gehnoor Creations | Jewellery Catalog</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Gehnoor Creations</h1>
-    <p class="tagline">Timeless Elegance, Tarnish-Free Shine.</p>
+    <div class="container">
+      <h1>Gehnoor Creations</h1>
+      <p class="tagline">Timeless Elegance, Tarnish-Free Shine.</p>
+      <nav>
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="necklaces">Necklaces</button>
+        <button class="filter-btn" data-category="earrings">Earrings</button>
+        <button class="filter-btn" data-category="rings">Rings</button>
+        <button class="filter-btn" data-category="bracelets">Bracelets</button>
+      </nav>
+      <input type="search" id="searchInput" placeholder="Search products..." aria-label="Search products" />
+    </div>
   </header>
 
-  <main>
-    <section class="search-section">
-      <input type="text" id="searchInput" placeholder="Search products..." aria-label="Search products"/>
-    </section>
-
-    <section class="catalog" id="catalog">
-      <!-- Products will load here -->
+  <main class="container">
+    <section id="productGrid" class="product-grid">
+      <!-- Products will be loaded here dynamically -->
     </section>
   </main>
 
   <footer>
-    <p>📩 Contact: <a href="mailto:gehnoorcreations@gmail.com">gehnoorcreations@gmail.com</a></p>
-    <p>📱 Enquire via Instagram DM: 
-      <a href="https://instagram.com/geh_noor" target="_blank" rel="noopener noreferrer">@geh_noor</a>
-    </p>
-    <p>© 2025 Gehnoor Creations</p>
+    <div class="container">
+      <p>📩 Contact: <a href="mailto:gehnoorcreations@gmail.com">gehnoorcreations@gmail.com</a></p>
+      <p>📱 Enquire via Instagram DM: <a href="https://instagram.com/geh_noor" target="_blank">@geh_noor</a></p>
+      <p>© 2025 Gehnoor Creations</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
